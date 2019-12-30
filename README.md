@@ -1,14 +1,28 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# Derek Dhammaloka Personal Profile
+ 
+Welcome to Derek Dhammaloka Personal Profile.  The purpose of this project is to have functionality similar to
+https://codepen.io/freeCodeCamp/full/zNBOYG
+ 
+## UX
+ 
+### User Stories
+ 
+User Stories are taken from:
+ 
+https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage
 
+Welcome section with id of welcome-section.
 
-Hi there! Welcome to AWS Cloud9!
+Welcome section with h1 element containing text.
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+Projects section with id of projects.
 
-Happy coding!
+Project section with at least 1 element with a class of project-tile to hold a project.
+
+Navbar with at least 1 link that I can navigate to different sections of the page.
+
+My portfolio should have at least 1 media query.
+
+Height of welcome section should be equal to the height of the viewport.
+
+Navbar should be at the top of the viewport.
