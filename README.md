@@ -19,7 +19,13 @@ Projects section with id of projects.
 
 Project section with at least 1 element with a class of project-tile to hold a project.
 
+Projects section should contain at least 1 link to a project.
+
+Portfolio should have a navbar with an id of navbar.
+
 Navbar with at least 1 link that I can navigate to different sections of the page.
+
+Portfolio should have a link of profile-link, which opens my GitHub or FCC profile in a new tab.
 
 My portfolio should have at least 1 media query.
 
