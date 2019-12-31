@@ -31,11 +31,18 @@
             text-align: center;
         }
         
-        .project-tile {
-            display: block;
-            margin: auto;
-            width: 478px;
-            height: 234.5px;
+        
+        article .project-tile {
+            border: 1px solid blue;
+        }
+        
+        article .project-tile:hover {
+            border: 1px solid green;
+        }
+        
+        article .project-tile img {
+            height: auto;
+            width: 100%;
         }
     </style>
 </head>
@@ -62,7 +69,8 @@
             <h3>These are some of my projects</h3>
             <article class="row">
                 <article class="col-sm-4">
-                    <img class="project-tile" src="images/ucd-band.png">
+                    <!-- Display Images -->
+                    <a href="https://derektypist.github.io/ucd-band" target="_blank" title="UCD Band"><img class="project-tile img-fluid" src="images/ucd-band.png" alt="UCD Band"></a>
                     <figure>
                         <figcaption>UCD Band</figcaption>
                     </figure>
