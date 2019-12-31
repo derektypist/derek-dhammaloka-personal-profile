@@ -4,6 +4,9 @@ Welcome to Derek Dhammaloka Personal Profile.  The purpose of this project is to
 https://codepen.io/freeCodeCamp/full/zNBOYG
  
 ## UX
+
+This project is a personal portfolio of myself.  It contains three sections - about (welcome), work (projects) and contact.
+The organising principle is biography.
  
 ### User Stories
  
@@ -32,3 +35,5 @@ My portfolio should have at least 1 media query.
 Height of welcome section should be equal to the height of the viewport.
 
 Navbar should be at the top of the viewport.
+
+Wireframes are supplied.
