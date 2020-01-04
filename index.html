@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,45 +9,50 @@
     <!-- Load Style Sheets -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <style>
         /* Navigation */
+
         #navbar {
             font-family: "Roboto", Arial, Verdana, sans-serif;
             padding: 10px;
         }
-        
+
         /* About (Welcome) Section */
-        
+
         #welcome-section {
             font-family: "Roboto", Arial, Verdana, sans-serif;
             padding-top: 150px;
             text-align: center;
             height: 100vh;
         }
-        
+
         /* Projects Section */
+
         #projects {
             font-family: "Roboto", Arial, Verdana, sans-serif;
             text-align: center;
+
         }
-        
-        
+
+
         article .project-tile {
             border: 1px solid blue;
         }
-        
+
         article .project-tile:hover {
             border: 1px solid green;
         }
-        
-  
+
+
         article .project-tile img {
+            display: block;
             height: auto;
             width: 100%;
         }
     </style>
 </head>
+
 <body>
     <!-- Set Up Navigation -->
     <nav class="navbar-nav navbar-expand-sm navbar-dark bg-dark fixed-top" id="navbar">
@@ -56,7 +62,7 @@
             <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
     </nav>
-    
+
     <!-- Set Up Main Content -->
     <main>
         <!-- Set Up Section for Welcome (About) -->
@@ -64,27 +70,30 @@
             <h1>Derek Dhammaloka</h1>
             <p>Web Developer</p>
         </section>
-        
+
         <!-- Set Up Section for Projects (Work) -->
         <section id="projects">
             <h3>These are some of my projects</h3>
             <article class="row">
-                <article class="col-sm-4">
+                <article class="col-sm-12">
                     <!-- Display Images with Caption for UCD Band-->
-                    <a href="https://derektypist.github.io/ucd-band" target="_blank" title="UCD Band"><img class="project-tile img-fluid" src="images/ucd-band.png" alt="UCD Band"></a>
+                    <a href="https://derektypist.github.io/ucd-band" target="_blank" title="UCD Band"><img class="project-tile img-fluid" src="images/ucd-band.png" width="317" height="156.33" alt="UCD Band"></a>
                     <figure>
-                        <figcaption class="project-tile">UCD Band</figcaption>
+                        <figcaption>UCD Band</figcaption>
+                        <a href="https://www.github.com/derektypist/ucd-band" target="_blank" title="View UCD Band Source Code"><i class="fa fa-github" aria-hidden="true"></i></a>
                     </figure>
-                    <a href="https://www.github.com/derektypist/ucd-band" target="_blank" title="View UCD Band Source Code"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+
+                    <a href="https://derektypist.github.io/data-dashboard" target="_blank" title="Data Dashboard"><img class="project-tile img-fluid" src="images/data-dashboard.png" alt="Data Dashboard" width="317" height="156.33"></a>
+                    <figure>
+                        <figcaption>Data Dashboard</figcaption>
+                        <a href="https://www.github.com/derektypist/data-dashboard" target="_blank" title="View Data Dashboard Source Code"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </figure>
                     
-                    <a href="https://derektypist.github.io/data-dashboard" target="_blank" title="Data Dashboard"><img class="project-tile img-fluid" src="images/data-dashboard.png" alt="Data Dashboard"></a>
-                    <figure>
-                        <figcaption class="project-tile">Data Dashboard</figcaption>
-                    </figure>
-                    <a href="https://www.github.com/derektypist/data-dashboard" target="_blank" title="View Data Dashboard Source Code"><i class="fa fa-github" aria-hidden="true"></i></a>
                 </article>
             </article>
         </section>
     </main>
 </body>
+
 </html>
