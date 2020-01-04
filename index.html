@@ -32,7 +32,7 @@
         #projects {
             font-family: "Roboto", Arial, Verdana, sans-serif;
             text-align: center;
-
+            padding: 10px;
         }
 
 
@@ -46,9 +46,13 @@
 
 
         article .project-tile img {
-            display: block;
             height: auto;
             width: 100%;
+        }
+        
+        img {
+            display: block;
+            margin: auto;
         }
     </style>
 </head>
@@ -75,7 +79,8 @@
         <section id="projects">
             <h3>These are some of my projects</h3>
             <article class="row">
-                <article class="col-sm-12">
+                <!-- Provide First Column of Images with Captions -->
+                <article class="col-sm-4">
                     <!-- Display Images with Caption for UCD Band-->
                     <a href="https://derektypist.github.io/ucd-band" target="_blank" title="UCD Band"><img class="project-tile img-fluid" src="images/ucd-band.png" width="317" height="156.33" alt="UCD Band"></a>
                     <figure>
@@ -83,13 +88,29 @@
                         <a href="https://www.github.com/derektypist/ucd-band" target="_blank" title="View UCD Band Source Code"><i class="fa fa-github" aria-hidden="true"></i></a>
                     </figure>
 
-
+                    <!-- Display Images with Caption for Data Dashboard -->
                     <a href="https://derektypist.github.io/data-dashboard" target="_blank" title="Data Dashboard"><img class="project-tile img-fluid" src="images/data-dashboard.png" alt="Data Dashboard" width="317" height="156.33"></a>
                     <figure>
                         <figcaption>Data Dashboard</figcaption>
                         <a href="https://www.github.com/derektypist/data-dashboard" target="_blank" title="View Data Dashboard Source Code"><i class="fa fa-github" aria-hidden="true"></i></a>
                     </figure>
                     
+                    <!-- Display Images with Caption for Holiday Manager -->
+                    <a href="https://holiday-manager-dd.herokuapp.com" target="_blank" title="Holiday Manager"><img class="project-tile img-fluid" src="images/holiday-manager.png" alt="Holiday Manager" width="317" height="156.33"></a>
+                    <figure>
+                        <figcaption>Holiday Manager</figcaption>
+                        <a href="https://www.github.com/derektypist/data-centric-development" target="_blank" title="View Data Centric Development (Holiday Manager) Source Code"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </figure>
+                </article>
+                
+                <!-- Provide Second Column of Images with Captions -->
+                <article class="col-sm-4">
+                    <!-- Display Images with Caption for Scheme Tracker -->
+                    <a href="https://scheme-tracker.herokuapp.com" target="_blank" title="Scheme Tracker"><img class="project-tile img-fluid" src="images/scheme-tracker.png" alt="Scheme Tracker" width="317" height="156.33"></a>
+                    <figure>
+                        <figcaption>Scheme Tracker</figcaption>
+                        <a href="https://www.github.com/derektypist/scheme-tracker" target="_blank" title="View Scheme Tracker Source Code"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </figure>
                 </article>
             </article>
         </section>
