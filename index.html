@@ -21,18 +21,17 @@
 
         /* About (Welcome) Section */
 
-        
         #welcome-section {
             font-family: "Roboto", Arial, Verdana, sans-serif;
-            padding-top: 180px;
+            padding-top: 240px;
             text-align: center;
             height: 100vh;
         }
-        
-        @media (max-width: 577px) {
+
+        @media (min-width: 576px) {
             #welcome-section {
                 font-family: "Roboto", Arial, Verdana, sans-serif;
-                padding-top: 240px;
+                padding-top: 120px;
                 text-align: center;
                 height: 100vh;
             }
@@ -88,6 +87,19 @@
 
         .source-code-links a i:hover {
             background-color: orange;
+        }
+
+        /* Skills Section */
+
+        #skills {
+            font-family: "Roboto", Arial, Verdana, sans-serif;
+            padding: 5px;
+            position: relative;
+            top: 350px;
+        }
+
+        .text-center {
+            text-align: center;
         }
     </style>
 </head>
@@ -197,10 +209,57 @@
                 </article>
             </article>
         </section>
-        
+
         <!-- Set Up Section for Skills -->
         <section id="skills">
-            
+            <!-- Display Heading for Skills Section -->
+            <h3 class="text-center">Here are some of my skills</h3>
+            <article class="row">
+
+                <!-- Display Article for Front End -->
+                <article class="col-sm-4">
+                    <!-- Display Heading -->
+                    <h4>Front End <i class="fa fa-tv" aria-hidden="true"></i></h4>
+                    <!-- Display List Items -->
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+
+                <!-- Display Article for Back End -->
+                <article class="col-sm-4">
+                    <!-- Display Heading -->
+                    <h4>Back End <i class="fa fa-gears" aria-hidden="true"></i></h4>
+                    <!-- Display List Items -->
+                    <ul>
+                        <li>Python</li>
+                        <li>MongoDB</li>
+                        <li>Flask</li>
+                        <li>Django</li>
+                        <li>SQL</li>
+                    </ul>
+                </article>
+
+                <!-- Display Article for Other Skills -->
+                <article class="col-sm-4">
+                    <h4>Other Skills <i class="fa fa-github" aria-hidden="true"></i></h4>
+                    <!-- Display List Items -->
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Materialize</li>
+                        <li>Font Awesome</li>
+                        <li>GitHub</li>
+                        <li>Heroku</li>
+                        <li>PDF</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Microsoft Visual Studio</li>
+                        <li>Microsoft Office (e.g. Excel)</li>
+                    </ul>
+                </article>
+            </article>
+
         </section>
     </main>
 </body>
