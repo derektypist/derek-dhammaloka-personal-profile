@@ -55,6 +55,30 @@
             display: block;
             margin: auto;
         }
+        
+        .source-code-links {
+            padding-bottom: 5px;
+        }
+        
+        .source-code-links a i {
+            width:32px;
+            height: 32px;
+            border-radius: 50%;
+            padding: 12px 0;
+            font-size: 28px;
+            line-height: 7px;
+            text-align: center;
+            color: white;
+            background-color: green;
+            transition: all 0.35s ease-in-out;
+            -moz-transition: all 0.35s ease-in-out;
+            -webkit-transition: all 0.35s ease-in-out;
+            -o-transition: all 0.35s ease-in-out;
+        }
+        
+        .source-code-links a i:hover {
+            background-color: orange;
+        }
     </style>
 </head>
 
@@ -84,8 +108,9 @@
                 <article class="col-sm-4">
                     <!-- Display Images with Caption for UCD Band-->
                     <a href="https://derektypist.github.io/ucd-band" target="_blank" title="UCD Band"><img class="project-tile img-fluid" src="images/ucd-band.png" width="317" height="156.33" alt="UCD Band"></a>
-                    <figure>
+                    <figure class="source-code-links">
                         <figcaption>UCD Band</figcaption>
+                        <!-- Provide Link to GitHub Repository -->
                         <a href="https://www.github.com/derektypist/ucd-band" target="_blank" title="View UCD Band Source Code"><i class="fa fa-github" aria-hidden="true"></i></a>
                     </figure>
 
