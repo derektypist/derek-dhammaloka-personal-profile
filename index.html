@@ -21,11 +21,21 @@
 
         /* About (Welcome) Section */
 
+        
         #welcome-section {
             font-family: "Roboto", Arial, Verdana, sans-serif;
-            padding-top: 150px;
+            padding-top: 180px;
             text-align: center;
             height: 100vh;
+        }
+        
+        @media (max-width: 577px) {
+            #welcome-section {
+                font-family: "Roboto", Arial, Verdana, sans-serif;
+                padding-top: 240px;
+                text-align: center;
+                height: 100vh;
+            }
         }
 
         /* Projects Section */
@@ -88,6 +98,7 @@
         <ul class="navbar-nav">
             <li class="nav-item"><a href="#welcome-section" class="nav-link">About</a></li>
             <li class="nav-item"><a href="#projects" class="nav-link">Work</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
             <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
     </nav>
@@ -185,6 +196,11 @@
                     </figure>
                 </article>
             </article>
+        </section>
+        
+        <!-- Set Up Section for Skills -->
+        <section id="skills">
+            
         </section>
     </main>
 </body>
