@@ -22,7 +22,7 @@
             background-color: seagreen;
         }
 
-        
+
         /* About (Welcome) Section */
 
         #welcome-section {
@@ -43,14 +43,13 @@
 
         /* Projects Section */
 
-
         #projects {
             font-family: "Roboto", Arial, Verdana, sans-serif;
             text-align: center;
             padding: 180px;
         }
 
-        
+
 
         article .project-tile {
             border: 4px solid blue;
@@ -100,21 +99,63 @@
         #skills {
             font-family: "Roboto", Arial, Verdana, sans-serif;
             padding: 200px;
-            
+
         }
-       
+
 
         .text-center {
             text-align: center;
         }
-        
+
         /* Contacts Section */
-        
+
         #contact {
             font-family: "Roboto", Arial, Verdana, sans-serif;
             text-align: center;
             padding: 200px;
-        }    
+        }
+
+        #profile-link {
+            padding-bottom: 10px;
+        }
+
+        #profile-link i {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            padding: 12px 0;
+            font-size: 28px;
+            line-height: 7px;
+            text-align: center;
+            color: white;
+            background-color: purple;
+            transition: all 0.35s ease-in-out;
+            -moz-transition: all 0.35s ease-in-out;
+            -webkit-transition: all 0.35s ease-in-out;
+            -o-transition: all 0.35s ease-in-out;
+        }
+
+        #profile-link i:hover {
+            background-color: seagreen;
+        }
+
+        @media (min-width: 576px) {
+            #profile-link i {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                padding: 12px 0;
+                font-size: 32px;
+                line-height: 10px;
+                text-align: center;
+                color: white;
+                background-color: purple;
+                transition: all 0.35s ease-in-out;
+                -moz-transition: all 0.35s ease-in-out;
+                -webkit-transition: all 0.35s ease-in-out;
+                -o-transition: all 0.35s ease-in-out;
+            }
+        }
     </style>
 </head>
 
@@ -131,7 +172,7 @@
 
     <!-- Set Up Main Content -->
     <main>
-        
+
         <!-- Set Up Section for Welcome (About) -->
         <section id="welcome-section">
             <h1>Derek Dhammaloka</h1>
@@ -276,12 +317,14 @@
             </article>
 
         </section>
-        
+
         <!-- Provide Section for Contacts -->
         <section id="contact">
             <article>
                 <h1>Let's Work Together</h1>
-                <a href="https://www.github.com/derektypist" target="_blank" id="profile-link"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.github.com/derektypist" title="Derek Dhammaloka on GitHub" target="_blank" id="profile-link"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <p>How do you take your coffee?</p>
+                
             </article>
         </section>
     </main>
