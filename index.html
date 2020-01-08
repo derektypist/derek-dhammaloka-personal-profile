@@ -49,7 +49,7 @@
         }
 
         #projects-start {
-            padding: 130px;
+            padding: 90px;
         }
 
         @media (min-width: 576px) {
@@ -105,10 +105,18 @@
 
         #skills {
             font-family: "Roboto", Arial, Verdana, sans-serif;
-            height: 100vh;
+            height: 120vh;
             padding: 5px;
         }
 
+
+        @media (min-width: 576px) {
+            #skills {
+                font-family: "Roboto", Arial, Verdana, sans-serif;
+                height: 100vh;
+                padding: 5px;
+            }
+        }
         #skills-start {
             padding: 90px;
         }
@@ -128,10 +136,11 @@
         #contact {
             font-family: "Roboto", Arial, Verdana, sans-serif;
             height: 100vh;
+            padding: 5px;
         }
 
         #contact-start {
-            padding: 140px;
+            padding: 90px;
         }
 
         @media (min-width: 576px) {
@@ -187,6 +196,17 @@
         .social-links li a i:hover {
             background-color: orange;
         }
+        
+        .professional-links li a {
+            text-decoration: none;
+            color: green;
+        }
+        
+        .professional-links li a:hover {
+            text-decoration: none;
+            color: orange;
+        }
+        
     </style>
 </head>
 
@@ -352,7 +372,7 @@
                     </ul>
                 </article>
             </article>
-
+            
         </section>
 
         <!-- Provide Section for Contacts -->
@@ -385,7 +405,7 @@
             <article>
                 <h3>Professional Associations</h3>
                 <!-- Provide Links to Professional Associations -->
-                <ul>
+                <ul class="professional-links">
                     <li><a href="https://www.bcs.org" title="British Computer Society (BCS)" target="_blank">British Computer Society (BCS)</a></li>
                     <li><a href="https://www.ima.org.uk" title="Institute of Maths and its Applications" target="_blank">Institute of Maths and its Applications</a></li>
                     <li><a href="https://www.facebook.com/groups/w3schools.com" title="W3Schools.com Public Group on Facebook" target="_blank">W3Schools.com Facebook Group</a></li>
