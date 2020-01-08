@@ -105,11 +105,19 @@
 
         #skills {
             font-family: "Roboto", Arial, Verdana, sans-serif;
-            padding: 200px;
-
+            padding: 5px;
         }
 
-
+        #skills-start {
+            padding: 90px;
+        }
+        
+        @media (min-width: 576px) {
+            #skills-start {
+                padding: 30px;
+            }
+        }
+        
         .text-center {
             text-align: center;
         }
@@ -212,7 +220,9 @@
 
         <!-- Set Up Section for Projects (Work) -->
         <section id="projects">
+            <!-- Apply padding to projects section -->
             <header id="projects-start"></header>
+            <!-- Display Heading -->
             <h3>These are some of my projects</h3>
             <article class="row">
                 <!-- Provide First Column of Images with Captions -->
@@ -300,7 +310,9 @@
 
         <!-- Set Up Section for Skills -->
         <section id="skills">
-            <!-- Display Heading for Skills Section -->
+            <!-- Apply padding to skills section -->
+            <header id="skills-start"></header>
+            <!-- Display Heading -->
             <h3 class="text-center">These are some of my skills</h3>
             <article class="row">
 
