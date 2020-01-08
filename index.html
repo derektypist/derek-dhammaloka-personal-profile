@@ -40,7 +40,7 @@
                 height: 100vh;
             }
         }
-        
+
         /* Projects Section */
 
         #projects {
@@ -49,11 +49,15 @@
         }
 
         #projects-start {
-            padding: 90px;
+            padding: 130px;
         }
 
-        
-        
+        @media (min-width: 576px) {
+            #projects-start {
+                padding: 30px;
+            }
+        }
+
         article .project-tile {
             border: 4px solid blue;
         }
@@ -101,19 +105,20 @@
 
         #skills {
             font-family: "Roboto", Arial, Verdana, sans-serif;
+            height: 100vh;
             padding: 5px;
         }
 
         #skills-start {
             padding: 90px;
         }
-        
+
         @media (min-width: 576px) {
             #skills-start {
                 padding: 30px;
             }
         }
-        
+
         .text-center {
             text-align: center;
         }
@@ -122,19 +127,18 @@
 
         #contact {
             font-family: "Roboto", Arial, Verdana, sans-serif;
-            text-align: center;
         }
 
         #contact-start {
-            padding: 90px;
+            padding: 110px;
         }
 
-        @media (min-width: 576px) {
+        @media (min-width: 1400px) {
             #contact-start {
-                padding: 140px;
+                padding: 180px;
             }
         }
-        
+
         #profile-link {
             padding-bottom: 10px;
         }
@@ -293,6 +297,7 @@
                     </figure>
                 </article>
             </article>
+
         </section>
 
         <!-- Set Up Section for Skills -->
@@ -351,13 +356,19 @@
 
         <!-- Provide Section for Contacts -->
         <section id="contact">
-            <article>
-                <header id="contact-start"></header>
-                <h1>Let's Work Together</h1>
+            <!-- Apply padding to contact section -->
+            <header id="contact-start"></header>
+            <!-- Display Heading -->
+            <h1 class="text-center">Let's Work Together</h1>
+            <!-- Provide Article on GitHub Profile -->
+            <article class="text-center">
                 <!-- Provide link to GitHub Profile -->
                 <a href="https://www.github.com/derektypist" title="Derek Dhammaloka on GitHub" target="_blank" id="profile-link"><i class="fa fa-github" aria-hidden="true"></i></a>
                 <p>How do you take your coffee?</p>
 
+            </article>
+
+            <article class="text-center">
                 <!-- Provide Links to Social Media (e.g. YouTube) -->
                 <h3>My Social</h3>
                 <ul class="list-inline social-links">
@@ -366,8 +377,14 @@
                     <li class="list-inline-item"><a href="https://www.youtube.com/user/derekthesec" title="YouTube" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></i></a></li>
                     <li class="list-inline-item"><a href="https://www.pinterest.co.uk/derekthesec" title="Pinterest" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
                 </ul>
-
             </article>
+
+            <h3>Professional Associations</h3>
+            <ul>
+                <li><a href="https://www.bcs.org" title="British Computer Society (BCS)" target="_blank">British Computer Society (BCS)</a></li>
+                <li><a href="https://www.ima.org.uk" title="Institute of Maths and its Applications" target="_blank">Institute of Maths and its Applications</a></li>
+            </ul>
+
         </section>
     </main>
 </body>
