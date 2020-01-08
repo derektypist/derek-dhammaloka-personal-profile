@@ -53,3 +53,9 @@ Height of welcome section should be equal to the height of the viewport.
 Navbar should be at the top of the viewport.
 
 Wireframes are supplied.
+
+* [About](wireframes/about.png)
+* [Contact](wireframes/contact.png)
+* [Skills](wireframes/skills.PNG)
+* [Skills - Mobile Version](wireframes/skills-mobile.png)
+* [Work](wireframes/work.png)
