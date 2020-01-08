@@ -52,11 +52,7 @@
             padding: 90px;
         }
 
-        @media (min-width: 576px) {
-            #projects-start {
-                padding: 30px;
-            }
-        }
+        
         
         article .project-tile {
             border: 4px solid blue;
@@ -127,20 +123,29 @@
         #contact {
             font-family: "Roboto", Arial, Verdana, sans-serif;
             text-align: center;
-            padding: 200px;
         }
 
+        #contact-start {
+            padding: 90px;
+        }
+
+        @media (min-width: 576px) {
+            #contact-start {
+                padding: 140px;
+            }
+        }
+        
         #profile-link {
             padding-bottom: 10px;
         }
 
         #profile-link i {
-            width: 32px;
-            height: 32px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             padding: 12px 0;
-            font-size: 28px;
-            line-height: 7px;
+            font-size: 50px;
+            line-height: 35px;
             text-align: center;
             color: white;
             background-color: purple;
@@ -152,24 +157,6 @@
 
         #profile-link i:hover {
             background-color: seagreen;
-        }
-
-        @media (min-width: 576px) {
-            #profile-link i {
-                width: 60px;
-                height: 60px;
-                border-radius: 50%;
-                padding: 12px 0;
-                font-size: 50px;
-                line-height: 35px;
-                text-align: center;
-                color: white;
-                background-color: purple;
-                transition: all 0.35s ease-in-out;
-                -moz-transition: all 0.35s ease-in-out;
-                -webkit-transition: all 0.35s ease-in-out;
-                -o-transition: all 0.35s ease-in-out;
-            }
         }
 
         .social-links {
@@ -365,12 +352,13 @@
         <!-- Provide Section for Contacts -->
         <section id="contact">
             <article>
+                <header id="contact-start"></header>
                 <h1>Let's Work Together</h1>
                 <!-- Provide link to GitHub Profile -->
                 <a href="https://www.github.com/derektypist" title="Derek Dhammaloka on GitHub" target="_blank" id="profile-link"><i class="fa fa-github" aria-hidden="true"></i></a>
                 <p>How do you take your coffee?</p>
 
-                <!-- Provide Link to Social Media -->
+                <!-- Provide Links to Social Media (e.g. YouTube) -->
                 <h3>My Social</h3>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item"><a href="https://www.facebook.com/derek.dhammaloka" title="Facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
