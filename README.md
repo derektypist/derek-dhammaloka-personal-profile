@@ -74,7 +74,8 @@ This project uses HTML5, CSS3 and Bootstrap 4.4.1.  Other Technologies used incl
 
 Resize the width of the browser window to see that the navbar is vertical for mobile versions.  Ensure all the links are manually tested
 to ensure that they are pointing to the correct destination.  External Links (e.g. British Computer Society) open in a new window without
-leaving the webpage.
+leaving the webpage.  Ensure all the user stories have been met.  If some of the user stories have not been met, go back and edit the code.  Also
+run the code.  Repeat until all user stories have been met.
 
 ## Deployment
 
