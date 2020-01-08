@@ -23,6 +23,8 @@ The skills section is in 3 columns - Front End, Back End and Other.
 
 The contact section provides links to my GitHub Profile, social media (Facebook, LinkedIn, YouTube and Pinterest) and Professional Organisations (e.g. British
 Computer Society).
+
+When the user hovers on the navbar, the background color changes to seagreen.
  
 ### User Stories
  
@@ -59,3 +61,41 @@ Wireframes are supplied.
 * [Skills](wireframes/skills.PNG)
 * [Skills - Mobile Version](wireframes/skills-mobile.png)
 * [Work](wireframes/work.png)
+
+## Features
+
+This project has a fixed navbar, whatever the section it is on.  It has about, work, skills and contact sections.
+
+## Technologies
+
+This project uses HTML5, CSS3 and Bootstrap 4.4.1.  Other Technologies used include Font Awesome 4.7.0 and Google Fonts.
+
+## Testing
+
+Resize the width of the browser window to see that the navbar is vertical for mobile versions.  Ensure all the links are manually tested
+to ensure that they are pointing to the correct destination.  External Links (e.g. British Computer Society) open in a new window without
+leaving the webpage.
+
+## Deployment
+
+This project is deployed on [GitHub Pages](https://derektypist.github.io/derek-dhammaloka-personal-profile) using the master branch.
+
+Remote setup at
+
+    git remote add origin https://github.com/derektypist/derek-dhammaloka-personal-profile
+    
+Any updates, use the git push command.
+
+## Credits
+
+### Content
+
+The contents in the project were written by me.
+
+### Media
+
+All images in the images folder are screenshots of the projects.  They are for illustration purposes only.
+
+### Acknowledgements
+
+Went to www.w3schools.com for ideas on the project.
